@@ -1,0 +1,127 @@
+@font-face{
+    font-family: 'Roboto';
+    src: local('Roboto');
+    src: url(../fonts/Roboto.ttf);
+}
+
+@font-face{
+    font-family: 'Philosopher';
+    src: local('Philosopher');
+    src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    background-color: #ffe4c4;
+    font-family:'Roboto';
+}
+
+header img{
+    display: block;
+    margin: auto;
+    width: 170px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    font-family: 'Roboto';
+    font-size: 22px;
+    display: inline;
+    margin-right: 100px;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    width:auto;
+}
+
+main{
+    position: relative;
+}
+
+.img_coffee_all_width{
+    width: 100%;
+}
+
+.text_on_img{
+    position: absolute;
+    top: 249px;
+    right: 80px;
+    width: 520px;
+    height: 260px;
+    padding: 0px;
+    text-align: center;
+
+    background: linear-gradient(180deg, rgb(249, 213, 152)0%, rgba(235, 164, 149, 0.623)100%);
+    outline-offset: -10px;
+    outline: 1px solid black;
+}
+
+.phil{
+    font-family: 'Philosopher';
+    font-size: 30px;
+}
+
+.robo{
+    margin: 0px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.images_x3{
+    text-align: center;
+}
+
+.images_x3 img{
+    display: inline;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.deviz{
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Philosopher';
+    margin-bottom: 0px;
+}
+
+.red{
+    color: red;
+}
+
+.textt{
+    display: flex;    
+    width: 1000px;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.zakazat{
+    font-size: 36px;
+    font-family: 'Philosopher';
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+iframe{
+    display: flex;
+    margin: auto;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    color: #999;
+    width: 1024px;
+}
